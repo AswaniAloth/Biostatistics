@@ -1,12 +1,12 @@
-# Biostatistics Mastery & Interview Preparation Plan
+# Biostatistics Mastery & Preparation Plan
 
-This roadmap organizes your core curriculum into an actionable study table, followed by a prioritized execution plan tailored to address the key feedback from your recent interview.
+This roadmap organizes your core curriculum into an actionable study table.
 
 ---
 
 ## Part 1: The 12-Phase Core Curriculum
 
-| Phase | Topic | Subtopics to Master | Practical Exercise (R / SAS) | Interview Goal | Status |
+| Phase | Topic | Subtopics to Master | Practical Exercise (R / SAS) | Statistical Goal | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **1** | **Statistical Foundations** | $H_0/H_1$, Power, CI, Type I & II Error, $p$-values | Solve hypothesis testing examples in R | Explain limitations of $p$-values | [ ] |
 | **1** | **Parametric Testing** | One-sample, Two-sample, Paired $t$-test, ANOVA | Simulate datasets and compare methods | Defend test selection | [ ] |
@@ -39,17 +39,16 @@ This roadmap organizes your core curriculum into an actionable study table, foll
 | **10** | **Communication** | Explain complex statistical concepts simply | Record mock presentations for non-statisticians | Deliver clear, senior-level communication | [ ] |
 | **10** | **Leadership** | Decision making, Risk identification | Complete trial redesign and risk-mitigation exercises | Lead statistical discussions | [ ] |
 | **11** | **Capstone Project** | **Phase III Psoriasis Trial Simulation** (Protocol, Randomization, Sample Size, Estimands, Multiplicity, Missing Data, 500-subject dataset, ANCOVA, MMRM, Tipping Point, CSR Summary) | Build the complete end-to-end R/SAS project | Demonstrate end-to-end trial statistician ownership | [ ] |
-| **12** | **Interview Readiness** | 100 common biostatistician interview questions | Record, review, and refine verbal answers | Project calm, structured confidence | [ ] |
+| **12** | **Market Readiness** | 100 common biostatistician questions | Record, review, and refine verbal answers | Project calm, structured confidence | [ ] |
 
 ---
 
 ## Part 2: The 80/20 Priority Order (Top 10 High-Impact Topics)
 
-If your study time is limited before upcoming interviews, work through these topics in exact rank order:
 
 | Rank | Topic | Why It Matters |
 | :---: | :--- | :--- |
-| **1** | **Estimands (ICH E9 R1)** | Directly addresses the biggest modern biostatistics interview requirement. |
+| **1** | **Estimands (ICH E9 R1)** | Directly addresses the biggest modern biostatistics requirement. |
 | **2** | **Missing Data & Multiple Imputation** | Essential for defending how you handle dropouts and intercurrent events. |
 | **3** | **Multiplicity** | Crucial for proving you understand Type I error control across endpoints/arms. |
 | **4** | **ANCOVA & Diagnostics** | The bread-and-butter primary analysis method for continuous clinical endpoints. |
@@ -66,7 +65,7 @@ If your study time is limited before upcoming interviews, work through these top
 
 Use this checklist to structure weekly study blocks:
 
-### Tier 1: Must Master (80% of Interview Focus)
+### Tier 1: Must Master
 * [ ] **Statistical testing and assumptions:** Parametric vs. non-parametric, residual normality, homogeneity, and what to do when assumptions fail.
 * [ ] **ANCOVA diagnostics:** Why baseline adjustment beats change-from-baseline, checking residuals/leverage.
 * [ ] **Missing data:** Clear intuition for MCAR, MAR, and MNAR.
