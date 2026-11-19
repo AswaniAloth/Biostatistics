@@ -62,9 +62,9 @@ If your study time is limited before upcoming interviews, work through these top
 
 ---
 
-## Part 3: Interview Focus Tiers
+## Part 3: Focus Tiers
 
-Use this checklist to structure your weekly study blocks:
+Use this checklist to structure weekly study blocks:
 
 ### Tier 1: Must Master (80% of Interview Focus)
 * [ ] **Statistical testing and assumptions:** Parametric vs. non-parametric, residual normality, homogeneity, and what to do when assumptions fail.
