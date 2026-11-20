@@ -117,12 +117,136 @@ Remember: Rejecting H₀ does not automatically prove that the medication works 
     The p-value helps researchers decide whether to reject H₀.
 
     Statistical significance does not always mean clinical significance.
+1. Statistical Power
+Definition
+
+Statistical power is the probability that a statistical test correctly detects a real effect or difference when that effect truly exists.
+
+In simple words, power tells us how likely a clinical study is to find a statistically significant result when a real treatment effect exists.
+Formula
+Power=1−β
+Power=1−β
+
+Where:
+
+    β
+    β = Probability of Type II error.
+
+    1−β
+    1−β = Statistical power.
+
+Clinical example
+
+A clinical researcher wants to test whether a new drug reduces blood pressure in patients with hypertension.
+
+The researcher plans a clinical trial with 200 patients.
+
+The study is designed with:
+
+    Significance level (α
+    α): 0.05
+
+    Statistical power: 80%
+
+    Type II error (β
+    β): 20%
+
+Interpretation:
+
+If the new drug truly has the treatment effect specified in the study design, the study has an 80% probability of detecting that effect as statistically significant, under the planned assumptions.
+	
+actors affecting statistical power
+
+    Sample size: Larger sample sizes generally increase power.
+
+    Effect size: Larger true treatment effects are easier to detect.
+
+    Variability: Lower variability generally increases power.
+
+    Significance level: A higher alpha increases power but also increases the risk of Type I error.
+
+    Study design: Appropriate study design and statistical methods improve efficiency.
+
+Important points
+
+    Commonly used power levels are 80% and 90%.
+
+    Power should be calculated before starting a clinical trial.
+
+    Insufficient power may result in missing a clinically important treatment effect.
+
+    Sample size calculation depends on power, alpha, effect size, variability, and study design.
+
+	2. Confidence Interval (CI)
+Definition
+
+A confidence interval is a range of values used to estimate an unknown population parameter based on sample data.
+
+In simple words, a confidence interval tells us how precise our estimate is.
+
+The most commonly used confidence interval in clinical research is the 95% confidence interval.
+Formula
+
+For a population mean with an estimated standard error:
+95% CI=xˉ±1.96×SE
+95%CI=xˉ±1.96×SE
+
+Where:
+
+    xˉ = Sample mean.
+
+    SE = Standard error.
+
+    1.96 = Approximate critical value for a two-sided 95% CI under a normal approximation.
+
+Clinical example
+
+A researcher investigates whether a new medication reduces systolic blood pressure.
+
+After conducting a clinical trial, the results show:
+
+    Mean reduction in blood pressure = 10 mmHg.
+
+    95% CI = 7 to 13 mmHg.
+
+Interpretation:
+
+We are 95% confident that the true average reduction in systolic blood pressure lies between 7 and 13 mmHg, under the assumptions of the statistical method.
+How to interpret confidence intervals
+
+    Narrow CI: More precise estimate.
+
+    Wide CI: Less precise estimate.
+
+    CI containing the null value: Usually not statistically significant at the corresponding two-sided 5% level.
+
+    CI excluding the null value: Usually statistically significant at the corresponding two-sided 5% level.
+
+Important: The null value depends on the measure.
+
+Statistical measure                               Null value
+
+Mean difference                                       0
+Risk difference                                       0
+Relative risk (RR)                                    1
+Odds ratio (OR)                                       1
+Hazard ratio (HR)                                     1
+Clinical example: Comparing two drugs
+
+Suppose a clinical trial compares Drug A with Drug B.
+The mean difference in blood pressure reduction is 5 mmHg.
+
+95% CI = 2 to 8 mmHg.
+
+Since the confidence interval does not contain zero, the difference is statistically significant at the 5% level using a corresponding two-sided test.
+
 
 	
 
 
 
-	
+
+
 
 
 	
