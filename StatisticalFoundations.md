@@ -38,26 +38,25 @@
 - Suppose researchers want to investigate whether a new medication reduces systolic blood pressure in patients with hypertension.
 
 - Given:
-
-- Average systolic blood pressure before treatment: 150 mmHg.
-- Researchers administer a new medication.
-- They want to investigate whether the medication reduces blood pressure.
+  - Average systolic blood pressure before treatment: 150 mmHg.
+  - Researchers administer a new medication.
+  - They want to investigate whether the medication reduces blood pressure.
 
 ## Null hypothesis (H₀):
 
 - The medication does not reduce the average systolic blood pressure relative to the reference value.
 
-- H₀: μ = 150 mmHg
+  - H₀: μ = 150 mmHg
 
 ## Alternative hypothesis (H₁):
 
 - The medication reduces the average systolic blood pressure.
 
-- H₁: μ < 150 mmHg
+  - H₁: μ < 150 mmHg
 
-- Where:
+  - Where:
 
-- μ = True population mean systolic blood pressure after treatment.
+    - μ = True population mean systolic blood pressure after treatment.
 
 ## Understanding the Difference
 
