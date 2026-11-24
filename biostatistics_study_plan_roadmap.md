@@ -9,7 +9,7 @@ This roadmap organizes your core curriculum into an actionable study table.
 | Phase | Topic | Subtopics to Master | Practical Exercise (R / SAS) | Statistical Goal | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **1** | **Statistical Foundations** | $H_0/H_1$, Power, CI, Type I & II Error, $p$-values | Solve hypothesis testing examples in R | Explain limitations of $p$-values | [Done ] |
-| **1** | **Parametric Testing** | One-sample, Two-sample, Paired $t$-test, ANOVA | Simulate datasets and compare methods | Defend test selection | [ ] |
+| **1** | **Parametric Testing** | One-sample, Two-sample, Paired $t$-test, ANOVA | Simulate datasets and compare methods | Defend test selection | [Done ] |
 | **1** | **Assumptions & Diagnostics** | Normality of residuals, Homogeneity of variance, Outliers | Generate QQ plots, Shapiro-Wilk tests, and residual plots | Answer *"What if assumptions fail?"* | [ ] |
 | **2** | **Linear Regression** | Residuals, Leverage, Cook's Distance, VIF | Build regression models on sample clinical data | Explain model diagnostics | [ ] |
 | **2** | **ANCOVA** | Baseline adjustment, Treatment effect estimation | Compare ANCOVA vs. Change from Baseline | Explain why ANCOVA is preferred | [ ] |
