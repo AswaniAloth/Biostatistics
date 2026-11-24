@@ -1,1 +1,36 @@
+Assumptions & Diagnostics in Biostatistics
 
+When performing statistical tests (such as t-tests, ANOVA or linear regression), we need to check certain assumptions to make sure our results are reliable.
+There are three important things to check:
+    Normality of residuals
+    Homogeneity of variance
+
+    Outliers
+
+1. Normality of Residuals
+
+Meaning: The residuals (errors) should be approximately normally distributed.
+A residual is the difference between the observed value and the predicted value.
+Residual=Observed−Predicted
+Residual=Observed−Predicted
+Example:
+
+Imagine we predict a patient's blood pressure to be 120 mmHg, but the actual measurement is 130 mmHg.
+Residual=130−120=10
+Residual=130−120=10
+The residual is +10.
+How do we check normality?
+
+    Histogram: Should look approximately bell-shaped.
+    Q-Q plot: Points should lie approximately along a straight diagonal line.
+    Shapiro-Wilk test:
+        p-value greater than 0.05 → No significant evidence against normality.
+        p-value less than or equal to 0.05 → Evidence that normality is violated.
+
+Why is it important?
+Normality helps ensure that statistical tests such as the t-test and ANOVA produce reliable p-values, especially with small samples.
+2. Homogeneity of Variance (Homoscedasticity)
+Meaning: Different groups should have approximately equal variances.
+In simple words: The spread of the data should be similar across groups.
+
+Example:
