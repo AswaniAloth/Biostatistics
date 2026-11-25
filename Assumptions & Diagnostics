@@ -34,3 +34,22 @@ Meaning: Different groups should have approximately equal variances.
 In simple words: The spread of the data should be similar across groups.
 
 Example:
+    Random scatter around zero: Homogeneity of variance is likely satisfied.
+    Funnel-shaped pattern: Variance increases or decreases.
+    Curved pattern: Possible non-linearity or model misspecification.
+
+Additional statistical tests:
+    Breusch-Pagan test (commonly used in regression).
+    Levene's test (commonly used to compare group variances).
+    White test (for heteroscedasticity in regression).
+
+Interpretation:
+
+    p greater than 0.05: No significant evidence of unequal variance.
+    p less than or equal to 0.05: Evidence of unequal variance.
+
+3. Outliers and influential observations
+
+What does it mean?
+
+Outliers are observations that differ substantially from the general pattern of the data. Influential observations are those that can substantially change the estimated model.
