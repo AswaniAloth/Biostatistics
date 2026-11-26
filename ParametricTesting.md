@@ -422,3 +422,280 @@ An independent two-sample t-test is a parametric test used to compare the means 
 
 Two independent groups + comparison of two means = Independent Two-Sample t-Test.
 
+markdown
+
+```markdown
+# 5. Paired-Sample t-Test
+
+## Meaning of Paired-Sample t-Test
+
+A paired-sample t-test (also called a dependent t-test) is a parametric statistical test used to compare two related measurements from the same participants or matched individuals.
+
+It helps researchers determine whether there is a statistically significant difference between two measurements taken under different conditions or at different times.
+
+In biostatistics, it is commonly used to compare medical measurements before and after treatment, exercise, medication, or a health intervention.
+
+## Purpose of Paired-Sample t-Test
+
+The main purposes are:
+
+1. To compare two related measurements from the same participants.
+2. To determine whether a treatment or intervention produces a significant change.
+3. To examine differences between measurements taken at two different times.
+4. To reduce the influence of individual differences because the same participants are measured twice.
+
+## Example in Biostatistics
+
+A researcher wants to determine whether a new medication reduces the blood pressure of patients.
+
+The researcher measures the blood pressure of 20 patients at two different times:
+
+- Before treatment: Blood pressure is measured before taking the medication.
+- After treatment: Blood pressure is measured after taking the medication.
+
+The same 20 patients are measured twice.
+
+The researcher uses a paired-sample t-test to determine whether the average blood pressure has changed significantly after treatment.
+
+**Important:** The two measurements must be related. In this example, both measurements come from the same patients.
+
+## Hypotheses of Paired-Sample t-Test
+
+A statistical test involves two hypotheses:
+
+**1. Null Hypothesis (H₀):**
+
+There is no significant difference between the mean of the two related measurements.
+
+H₀: μd = 0
+
+**2. Alternative Hypothesis (H₁):**
+
+There is a significant difference between the mean of the two related measurements.
+
+H₁: μd ≠ 0
+
+Where:
+
+- μd = Population mean of the differences between paired measurements.
+- 0 = No average difference between the two measurements.
+
+This is a two-tailed test because the researcher wants to determine whether the measurements have either increased or decreased.
+
+## Formula of Paired-Sample t-Test
+
+The formula is:
+
+t = d̄ / (sd / √n)
+
+Where:
+
+- t = Calculated t-value.
+- d̄ = Mean of the differences between paired measurements.
+- sd = Standard deviation of the differences.
+- n = Number of pairs or participants.
+
+**Note:** The differences are calculated for each participant by subtracting one measurement from the other.
+
+For example:
+
+Difference = After-treatment measurement − Before-treatment measurement.
+
+## Interpretation of p-Value
+
+The p-value helps determine whether the average difference between the paired measurements is statistically significant.
+
+- If p < 0.05: The result is statistically significant. Reject the null hypothesis.
+- If p ≥ 0.05: The result is not statistically significant. Fail to reject the null hypothesis.
+
+**Example:**
+
+A researcher measures the blood pressure of 20 patients before and after medication.
+
+If the calculated p-value is 0.01:
+
+- 0.01 is less than 0.05.
+- The result is statistically significant.
+- Reject the null hypothesis.
+- There is sufficient evidence that the average blood pressure changed after treatment.
+
+Important: A statistically significant change does not automatically prove that the medication caused the change. Other factors may also influence the results.
+
+## Assumptions of Paired-Sample t-Test
+
+Before performing a paired-sample t-test, the following assumptions should be considered:
+
+1. **Numerical data:** The measurements should be continuous and measured on an interval or ratio scale.
+2. **Related observations:** The two measurements must come from the same participants or appropriately matched individuals.
+3. **Independence between pairs:** Each participant's pair of measurements should be independent of the other participants' pairs.
+4. **Normality of differences:** The differences between the paired measurements should be approximately normally distributed, particularly when the sample size is small.
+5. **No influential outliers:** There should be no extreme outliers in the differences between paired measurements.
+
+**Very Important for Examinations:**
+
+For a paired-sample t-test, normality is assessed on the differences between the two measurements, NOT on each measurement separately.
+
+## When Do We Use a Paired-Sample t-Test?
+
+It is used when comparing two related measurements, such as:
+
+- Blood pressure before and after treatment.
+- Blood glucose levels before and after medication.
+- Body weight before and after a dietary programme.
+- Heart rate before and after exercise.
+- Cholesterol levels before and after a lifestyle intervention.
+
+## Advantages of Paired-Sample t-Test
+
+1. Useful for analysing before-and-after studies.
+2. Controls for individual differences because the same participants are measured twice.
+3. Can provide greater statistical power than an independent t-test when measurements are strongly correlated.
+4. Helps evaluate changes following medical treatments or interventions.
+5. Simple to perform and interpret.
+
+## Difference Between Independent and Paired-Sample t-Tests
+
+| Independent t-Test | Paired-Sample t-Test |
+|---|---|
+| Compares two unrelated groups. | Compares two related measurements. |
+| Uses different participants in each group. | Uses the same participants twice or matched individuals. |
+| Example: Medication A versus medication B. | Example: Before and after medication. |
+| Normality is assessed within each group. | Normality is assessed on the differences. |
+
+## Summary
+
+A paired-sample t-test is a parametric statistical test used to compare two related measurements from the same participants or matched individuals.
+
+It is commonly used in medical research to determine whether a treatment or intervention produces a significant change.
+
+**Remember for examinations:**
+
+Same people + two measurements + before and after = Paired-Sample t-Test.
+```
+
+# 6. Comparison of the Three Types of t-Tests
+
+## Introduction
+
+There are three main types of t-tests commonly used in biostatistics:
+
+1. One-Sample t-Test.
+2. Independent Two-Sample t-Test.
+3. Paired-Sample t-Test.
+
+All three are parametric statistical tests used to compare means (averages). However, they differ in the number of groups, the relationship between observations, and the research questions they answer.
+
+Choosing the correct t-test depends on the study design and the type of comparison being made.
+
+## 1. One-Sample t-Test
+
+**Meaning:** Compares the mean of one sample with a known or hypothesised population mean.
+
+**Example:** A researcher wants to determine whether the average haemoglobin level of 30 pregnant women differs from the standard reference value of 12 g/dL.
+
+**When do we use it?**
+- When comparing one sample mean with a known or hypothesised value.
+
+## 2. Independent Two-Sample t-Test
+
+**Meaning:** Compares the means of two separate and unrelated groups.
+
+**Example:** A researcher wants to compare the average blood pressure of:
+- Group A: Patients receiving medication A.
+- Group B: Patients receiving medication B.
+
+**When do we use it?**
+- When comparing the means of two independent groups.
+
+## 3. Paired-Sample t-Test
+
+**Meaning:** Compares two related measurements from the same participants or matched individuals.
+
+**Example:** A researcher measures the blood pressure of the same patients:
+- Before treatment.
+- After treatment.
+
+**When do we use it?**
+- When comparing two related measurements.
+- Before-and-after studies.
+- When the same participants are measured twice.
+
+## Comparison of the Three Types of t-Tests
+
+| Feature | One-Sample t-Test | Independent t-Test | Paired-Sample t-Test |
+|---|---|---|---|
+| Number of samples | One sample | Two groups | Two related measurements |
+| Participants | One group | Different participants | Same participants or matched pairs |
+| Main purpose | Compare a sample mean with a known value | Compare two unrelated means | Compare two related means |
+| Relationship | One sample and a reference value | Independent groups | Related observations |
+| Example | Haemoglobin vs. 12 g/dL | Medication A vs. B | Blood pressure before and after treatment |
+| Normality assumption | Sample values | Values within each group or model residuals | Differences between paired measurements |
+
+## How to Choose the Correct t-Test
+
+Ask yourself the following questions:
+
+**Question 1: Are you comparing one sample with a known or hypothesised value?**
+
+- Yes → One-Sample t-Test.
+
+**Question 2: Are you comparing two different and unrelated groups?**
+
+- Yes → Independent Two-Sample t-Test.
+
+**Question 3: Are you comparing the same participants at two different times or under two different conditions?**
+
+- Yes → Paired-Sample t-Test.
+
+## Examples in Biostatistics
+
+| Research question | Correct statistical test |
+|---|---|
+| Is the average haemoglobin level different from 12 g/dL? | One-Sample t-Test |
+| Is blood pressure different between men and women? | Independent t-Test |
+| Does medication reduce blood glucose levels? (Before and after measurements in the same patients) | Paired-Sample t-Test |
+| Is average body weight different between smokers and non-smokers? | Independent t-Test |
+| Does exercise change the heart rate of the same participants? | Paired-Sample t-Test |
+
+## Important Differences in Assumptions
+
+**One-Sample t-Test:**
+- Numerical data.
+- Independent observations.
+- Approximately normal sample values, particularly for small samples.
+- No influential outliers.
+
+**Independent Two-Sample t-Test:**
+- Numerical data.
+- Two independent groups.
+- Approximate normality within each group, particularly for small samples.
+- Equal variances for the standard Student's t-test.
+- No influential outliers.
+
+**Paired-Sample t-Test:**
+- Numerical data.
+- Two related measurements.
+- Independent pairs.
+- Approximately normally distributed differences.
+- No influential outliers in the differences.
+
+## Summary
+
+The three types of t-tests are used for different research situations:
+
+1. **One-Sample t-Test:** One sample compared with a known or hypothesised value.
+2. **Independent t-Test:** Two separate and unrelated groups compared.
+3. **Paired-Sample t-Test:** Two related measurements compared.
+
+**Important examination tip:**
+
+- One sample + one reference value = One-Sample t-Test.
+- Two different groups = Independent t-Test.
+- Same people measured twice = Paired-Sample t-Test.
+
+Remember: The most important factor in selecting the correct t-test is the relationship between the samples or measurements.
+
+This chapter continue with Analysis of Variance - Anova 
+
+
+
