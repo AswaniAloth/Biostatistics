@@ -2989,7 +2989,3 @@ Do not confuse correlation with regression.
 Correlation measures the strength and direction of a relationship, whereas regression models the relationship and can be used to predict an outcome.
 
 Also remember that regression identifies statistical associations; it does not automatically prove that one variable causes another.
-
-
-
-**
