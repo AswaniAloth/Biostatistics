@@ -209,9 +209,6 @@ ANOVA determines whether at least one group mean differs significantly from the 
 
 **Important:** A significant ANOVA result tells us that at least one mean differs, but it does not tell us exactly which groups are different.
 
-markdown
-
-```markdown
 # 12. Post-Hoc Tests (Tukey's Test and Other Methods)
 
 ## Meaning of Post-Hoc Tests
@@ -458,7 +455,7 @@ The four commonly studied methods are:
 **Important examination tip:**
 
 If a question asks which test compares all possible pairs of group means after ANOVA, the answer is Tukey's HSD test.
-```
+
 
 # 13. Interpretation of p-Values in Parametric Tests
 
@@ -661,7 +658,6 @@ Never say that you accept the null hypothesis when p ≥ 0.05. The correct expre
 
 markdown
 
-```markdown
 # 14. How to Choose the Correct Statistical Test
 
 ## Meaning of Choosing the Correct Statistical Test
@@ -944,7 +940,7 @@ Before selecting a statistical test, always ask:
 - Are the assumptions of the test satisfied?
 
 These four questions will help you choose the correct statistical test in most basic biostatistics examination questions.
-```
+
 
 markdown
 
@@ -3002,3 +2998,4 @@ Also remember that regression identifies statistical associations; it does not a
 ```
 
 
+**
