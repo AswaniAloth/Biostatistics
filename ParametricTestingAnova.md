@@ -656,8 +656,6 @@ The conventional significance level is 0.05.
 
 Never say that you accept the null hypothesis when p ≥ 0.05. The correct expression is: "Fail to reject the null hypothesis."
 
-markdown
-
 # 14. How to Choose the Correct Statistical Test
 
 ## Meaning of Choosing the Correct Statistical Test
@@ -941,10 +939,6 @@ Before selecting a statistical test, always ask:
 
 These four questions will help you choose the correct statistical test in most basic biostatistics examination questions.
 
-
-markdown
-
-```markdown
 # 15. Assumptions of Parametric Tests
 
 ## Meaning of Assumptions of Parametric Tests
@@ -1155,7 +1149,7 @@ The five main assumptions are:
 For a paired-sample t-test, normality is checked on the differences between the paired measurements, not on the individual measurements.
 
 For ANOVA, normality is assessed using the model residuals, not simply by checking whether all the raw data combined follow a normal distribution.
-```
+
 
 # 16. Normality and the Normal Distribution
 
@@ -1333,9 +1327,9 @@ For a paired-sample t-test, check the normality of the differences between measu
 
 For ANOVA, assess the normality of the model residuals rather than simply testing all observations combined.
 
-markdown
 
-```markdown
+
+
 # 17. Homogeneity of Variance (Equal Variances)
 
 ## Meaning of Homogeneity of Variance
@@ -1521,11 +1515,11 @@ The most commonly used statistical test for checking this assumption is Levene's
 **Important examination tip:**
 
 Homogeneity of variance means equal spread or variability between groups. It does NOT mean that the group means must be equal.
-```
 
-markdown
 
-```markdown
+
+
+
 # 18. Independence of Observations and Outliers
 
 Independence of observations and the absence of influential outliers are two important considerations when performing parametric statistical tests.
@@ -1788,11 +1782,11 @@ Common methods for identifying outliers include:
 **Important examination tip:**
 
 Independence is a condition determined mainly by the study design, whereas outliers are unusual observations identified during data analysis. Both should be considered before interpreting parametric test results.
-```
 
-markdown
 
-```markdown
+
+
+
 # 19. Central Limit Theorem (CLT)
 
 ## Meaning of the Central Limit Theorem
@@ -1970,7 +1964,7 @@ Do not confuse normality with the Central Limit Theorem.
 - CLT concerns the distribution of sample means across repeated random samples.
 
 The CLT does not mean that the original population data automatically become normally distributed when the sample size increases.
-```
+
 
 # 20. Non-Parametric Tests: Introduction and Overview
 
@@ -2318,9 +2312,9 @@ Remember the difference between independent and related groups:
 
 These distinctions are particularly important in biostatistics examinations.
 
-markdown
 
-```markdown
+
+
 # 22. Correlation in Biostatistics (Pearson's Correlation)
 
 ## Meaning of Correlation
@@ -2633,11 +2627,11 @@ The correlation coefficient ranges from −1 to +1.
 **Important examination tip:**
 
 Always remember that correlation does not mean causation. A statistically significant correlation indicates evidence of an association, not proof that one variable causes the other.
-```
 
-markdown
 
-```markdown
+
+
+
 # 23. Regression Analysis (Linear Regression)
 
 ## Meaning of Regression Analysis
@@ -2995,7 +2989,7 @@ Do not confuse correlation with regression.
 Correlation measures the strength and direction of a relationship, whereas regression models the relationship and can be used to predict an outcome.
 
 Also remember that regression identifies statistical associations; it does not automatically prove that one variable causes another.
-```
+
 
 
 **
