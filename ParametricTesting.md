@@ -422,9 +422,6 @@ An independent two-sample t-test is a parametric test used to compare the means 
 
 Two independent groups + comparison of two means = Independent Two-Sample t-Test.
 
-markdown
-
-```markdown
 # 5. Paired-Sample t-Test
 
 ## Meaning of Paired-Sample t-Test
@@ -571,7 +568,7 @@ It is commonly used in medical research to determine whether a treatment or inte
 **Remember for examinations:**
 
 Same people + two measurements + before and after = Paired-Sample t-Test.
-```
+
 
 # 6. Comparison of the Three Types of t-Tests
 
