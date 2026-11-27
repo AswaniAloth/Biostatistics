@@ -267,3 +267,43 @@ Examines whether conclusions change under different assumptions about missing da
 **Golden Rule:**
 
 Before handling missing data, understand WHY the data are missing. The missingness mechanism determines which statistical methods are appropriate and how confidently clinical conclusions can be interpreted.
+
+# Study Plan: Missing Data in Biostatistics
+
+## 1. Study Topics and Learning Outcomes
+
+| Study Topic | What to Study / Practice | Expected Learning Outcome |
+|---|---|---|
+| Missing Data Basics | Definition, causes, types, and patterns of missing data | Understand why missing data occur in clinical research |
+| MCAR | Missing Completely at Random; simulate random missingness | Explain statistical and clinical implications of MCAR |
+| MAR | Missing at Random; simulate missingness based on observed variables | Understand how observed patient characteristics influence missingness |
+| MNAR | Missing Not at Random; simulate missingness based on unobserved values | Understand potential selection bias and limitations of standard imputation |
+| Missingness Comparison | Compare MCAR, MAR, and MNAR | Identify and distinguish the three mechanisms |
+| Missing Data Visualization | Missing data patterns, heatmaps, and missingness percentages | Identify missingness patterns in clinical datasets |
+| Missing Data Handling | Complete-case analysis, mean imputation, and multiple imputation | Select appropriate approaches to missing data |
+| Advanced Methods | Maximum likelihood, inverse probability weighting, pattern-mixture models | Understand advanced missing data techniques |
+| Sensitivity Analysis | Compare results under MAR and MNAR assumptions | Evaluate the robustness of clinical conclusions |
+| Clinical Interpretation | Effects of missing data on treatment effectiveness, bias, and statistical power | Explain clinical and statistical implications |
+
+---
+
+## 2. Practical Exercise
+
+**Objective:** Simulate and analyze different missing data mechanisms using a clinical dataset.
+
+### Tasks
+
+1. Use a simulated dataset of 1,000 patients.
+2. Generate MCAR, MAR, and MNAR missingness patterns.
+3. Compare missing data percentages.
+4. Apply appropriate missing data methods.
+5. Compare statistical results before and after handling missing data.
+6. Interpret the clinical implications.
+
+---
+
+## 3. Final Study Objective
+
+Understand missing data mechanisms, simulate different missingness patterns, select appropriate statistical methods, and explain their impact on clinical research findings.
+
+**Expected competency:** Be able to identify missing data mechanisms, implement appropriate statistical approaches, perform sensitivity analyses, and interpret the results in medical research.
