@@ -16,7 +16,7 @@ This roadmap organizes your core curriculum into an actionable study table.
 | **2** | **Logistic Regression** | Odds Ratio, Interactions, Model fit | Perform binary endpoint analysis | Defend binary analyses | [ ] |
 | **2** | **Survival Analysis** | Kaplan-Meier (KM), Cox PH, Log-rank, Censoring | Simulate PFS/OS datasets | Explain hazard ratio and PH assumption | [ ] |
 | **3** | **Longitudinal Data** | Repeated Measures, MMRM | Compare MMRM vs. LOCF | Explain the MAR assumption | [ ] |
-| **3** | **Missing Data** | MCAR, MAR, MNAR mechanisms | Simulate different missingness patterns | Explain clinical/statistical implications of each | [ ] |
+| **3** | **Missing Data** | MCAR, MAR, MNAR mechanisms | Simulate different missingness patterns | Explain clinical/statistical implications of each | [DOne ] |
 | **3** | **Multiple Imputation** | Rubin's Rules, MI workflow | Implement MI in R (`mice` package) | Defend imputation strategy | [ ] |
 | **3** | **Sensitivity Analysis** | Tipping Point, Pattern Mixture Models, Jump-to-Reference | Create sensitivity analysis reports | Demonstrate robustness thinking | [ ] |
 | **4** | **Multiplicity** | Bonferroni, Holm, Hochberg, FDR | Simulate multiple endpoints and $\alpha$ inflation | Explain alpha inflation | [ ] |
