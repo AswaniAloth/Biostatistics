@@ -169,7 +169,7 @@ For example:
 - Imputation 4.
 - Imputation 5.
 
-Each dataset contains different plausible values for the missing observations.
+Each dataset contains different plausible values for the missing observations. 
 
 ### Step 5: Analyze Each Dataset
 
